@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    height: 800px;
+    max-width: 1440px;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 0 0 50px rgb(192, 192, 192);
+    overflow: hidden;
+}
+
+.block1,
+.block2,
+.block3 {
+    height: 33%;
+    background-size: cover;
+}
+
+.block1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image {
+    height: 100%;
+    background-image: url("../images/pexels-pixabay-460985.png");
+    background-size: cover;
+}
+
+.block3 {
+    height: 34%;
+    background-image: url("../images/cats-3061372_1920.png");
+}
+
+.text_container {
+    height: 100%;
+}
+
+.block2,
+.text_container {
+    padding: 10px;
+}
+
+.text {
+    max-height: 100%;
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, -50%);
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    scrollbar-gutter: none;
+}

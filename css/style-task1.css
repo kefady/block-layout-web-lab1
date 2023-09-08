@@ -1,0 +1,9 @@
+.image {
+    width: 50%;
+    float: left;
+}
+
+.text_container {
+    width: 50%;
+    float: right;
+}
