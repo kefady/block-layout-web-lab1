@@ -30,14 +30,9 @@ body {
     background-size: cover;
 }
 
-.block1::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .image {
     height: 100%;
+    border-radius: 0 0 35px 0;
     background-image: url("../images/pexels-pixabay-460985.png");
     background-size: cover;
 }
@@ -53,7 +48,7 @@ body {
 
 .block2,
 .text_container {
-    padding: 10px;
+    padding: 20px;
 }
 
 .text {

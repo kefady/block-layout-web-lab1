@@ -7,3 +7,9 @@
     width: 50%;
     float: right;
 }
+
+.block1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
